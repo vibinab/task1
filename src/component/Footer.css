@@ -1,0 +1,48 @@
+.footermain {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color: black;
+    color: white;
+}
+
+.footlink{
+    list-style: none;
+   
+}
+
+.footlink li {
+    margin-top: 0.5rem;
+
+}
+.footerc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.threediv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+.threediv div {
+    margin-left: 0.5rem;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .footerc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .threediv {
+       justify-content: center;
+    }
+  }
